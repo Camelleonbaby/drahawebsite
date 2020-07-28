@@ -407,7 +407,7 @@ class App extends React.Component {
 
                 <div className = "col-md-6">
                   <div className = "project-img"> 
-                  <img src="img/AI-writer.jpg" className="img-responsive" />  
+                  <img src="img/AI-camera.jpg" className="img-responsive" />  
                   </div>
 
               </div>
@@ -429,7 +429,7 @@ class App extends React.Component {
 
                 <div className = "col-md-6">
                   <div className = "project-img"> 
-                  <img src="img/AI-writer.jpg" className="img-responsive" />  
+                  <img src="img/AI-Ear.jpg" className="img-responsive" />  
                   </div>
 
               </div>
