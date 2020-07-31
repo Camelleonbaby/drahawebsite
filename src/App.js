@@ -220,7 +220,7 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Weixing XU</h2>
-                    <h3>Data Scientist</h3>
+                    <h3>Senior Data Scientist</h3>
                     <p> Weixing is a experienced data scientist.</p>
 
                 </div>
@@ -251,7 +251,7 @@ class App extends React.Component {
                   </ul>
 
                 </div>
-                    <h2>Dr Weidong LIU</h2>
+                    <h2>Dr Zhonghuai WU</h2>
                     <h3>Data Scientist</h3>
                     <p> Zhonghuai is a experienced data scientist. </p>
 
@@ -285,7 +285,7 @@ class App extends React.Component {
 
                 </div>
                     <h2>Mr Haiyang ZHAO</h2>
-                    <h3>Data Engineer</h3>
+                    <h3>Data Engineer/Software Engineer</h3>
                     <p> Haiyang is an experienced data engineer and a PhD Candidate at UNSW.</p>
 
                 </div>
