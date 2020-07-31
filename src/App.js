@@ -268,9 +268,9 @@ class App extends React.Component {
                   </ul>
 
                 </div>
-                    <h2>Dr Qi(Allen) WU</h2>
+                    <h2>Dr Qi(Alen) WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Allen is an experienced Data Scientist.</p>
+                    <p> Alen is an experienced Data Scientist.</p>
 
                 </div>
 
