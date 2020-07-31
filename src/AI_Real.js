@@ -72,8 +72,8 @@ class AI_Real extends Component {
       house10_latitude: -33,
       house10_longitude: 151,
 
-      House_No1_Latitude: 0,
-      House_No1_Longitude: 0,  
+      House_No1_Latitude: -33.8688,
+      House_No1_Longitude: 151.2093,  
 
       House_No2_Latitude: 0,
       House_No2_Longitude: 0, 

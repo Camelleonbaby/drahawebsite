@@ -145,7 +145,7 @@ class App extends React.Component {
                   <i className="fa fa-database"></i>            
                 </div>
                 <h3> Market Exploration </h3>
-                <p> We can collect business data for our customers from various resources.  
+                <p> We collect business data for our customers from various resources.  
                 </p>
 
               </div> 
@@ -157,7 +157,7 @@ class App extends React.Component {
                 </div>
 
                 <h3> Customer Mining </h3>
-                <p> We can privide insightful business report using data visualization techniques.  
+                <p> We privide insightful business report using data visualization techniques.  
                 </p>
               </div> 
 
@@ -167,7 +167,7 @@ class App extends React.Component {
                 </div>
 
                 <h3> Product Upgrade </h3>
-                <p> We can help training and deploying AI tools for solving your business problems.   
+                <p> We help training and deploying AI tools for solving your business problems.   
                 </p>
 
               </div> 
@@ -178,7 +178,7 @@ class App extends React.Component {
                 </div>
 
                 <h3> Process Automation </h3>
-                <p> We can provide customised courses of data science and AI training for your teams.  
+                <p> We provide customised courses of data science and AI training for your teams.  
                 </p>
 
               </div> 
@@ -192,7 +192,7 @@ class App extends React.Component {
             <div className="container">
               <h1>Our Team</h1>
               <div className="row">
-                <div className="col-md-3 profile-pic text-center">
+                <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
                     <img src="img/weidong.jpg" className="img-responsive"/>
                   <ul>
@@ -203,12 +203,29 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
+                    <h3>Data Scientist/Founder</h3>
                     <p> Weidong is a AWS certified machine learning specialty.</p>
 
                 </div>
 
-                <div className="col-md-3 profile-pic text-center">
+
+                <div className="col-md-4 profile-pic text-center">
+                  <div className="img-box">
+                    <img src="img/weixing.jpg" className="img-responsive"/>
+                  <ul>
+                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
+                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
+                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
+                  </ul>
+
+                </div>
+                    <h2>Dr Weixing XU</h2>
+                    <h3>Data Scientist</h3>
+                    <p> Weixing is a experienced data scientist.</p>
+
+                </div>
+
+                <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
                     <img src="img/chuhan.jpg" className="img-responsive" />
                   <ul>
@@ -219,14 +236,14 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Chuhan WU</h2>
-                    <h3>Founder</h3>
-                    <p> Chuhan is a AWS certified machine learning specialty.</p>
+                    <h3>Data Scientist</h3>
+                    <p> Chuhan is a experienced data scientist.</p>
 
                 </div>
 
-                <div className="col-md-3 profile-pic text-center">
+                <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
-                    <img src="img/weidong.jpg" className="img-responsive" />
+                    <img src="img/zhonghuai.jpg" className="img-responsive" />
                   <ul>
                     <a href="#"><li><i className="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i className="fa fa-twitter"></i></li></a>
@@ -235,14 +252,15 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
+                    <h3>Data Scientist</h3>
+                    <p> Zhonghuai is a experienced data scientist. </p>
 
                 </div>
 
-                <div className="col-md-3 profile-pic text-center">
+
+                <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
-                    <img src="img/weidong.jpg" className="img-responsive" />
+                    <img src="img/wuqi.jpg" className="img-responsive" />
                   <ul>
                     <a href="#"><li><i className="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i className="fa fa-twitter"></i></li></a>
@@ -250,20 +268,15 @@ class App extends React.Component {
                   </ul>
 
                 </div>
-                    <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
+                    <h2>Dr Qi(Allen) WU</h2>
+                    <h3>Data Scientist</h3>
+                    <p> Allen is an experienced Data Scientist.</p>
 
                 </div>
 
-
-              </div>
-
-
-              <div className="row">
-                <div className="col-md-3 profile-pic text-center">
+                <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
-                    <img src="img/weidong.jpg" className="img-responsive"/>
+                    <img src="img/haiyang.jpg" className="img-responsive" />
                   <ul>
                     <a href="#"><li><i className="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i className="fa fa-twitter"></i></li></a>
@@ -271,57 +284,9 @@ class App extends React.Component {
                   </ul>
 
                 </div>
-                    <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
-
-                </div>
-
-                <div className="col-md-3 profile-pic text-center">
-                  <div className="img-box">
-                    <img src="img/weidong.jpg" className="img-responsive"/>
-                  <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
-                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
-                  </ul>
-
-                </div>
-                    <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
-
-                </div>
-
-                <div className="col-md-3 profile-pic text-center">
-                  <div className="img-box">
-                    <img src="img/weidong.jpg" className="img-responsive" />
-                  <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
-                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
-                  </ul>
-
-                </div>
-                    <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
-
-                </div>
-
-                <div className="col-md-3 profile-pic text-center">
-                  <div className="img-box">
-                    <img src="img/weidong.jpg" className="img-responsive" />
-                  <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
-                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
-                  </ul>
-
-                </div>
-                    <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
+                    <h2>Mr Haiyang ZHAO</h2>
+                    <h3>Data Engineer</h3>
+                    <p> Haiyang is an experienced data engineer and a PhD Candidate at UNSW.</p>
 
                 </div>
 
@@ -419,7 +384,7 @@ class App extends React.Component {
                 <div className = "col-md-6 project-showcase">
                 <h2> Third Ear </h2>
                 <div className = "project-content"> 
-                   Time-series signals, such as sound, ultrasonic, vibration, stock market price changes and other historic data,  contains rich useful information. We developed machine learning model to extract those information from the signal and provide accurate prediction. They will be your their ear in solving problems. 
+                   Time-series signals, such as sound, ultrasonic, vibration, stock market price changes and other historic data,  contains rich useful information. We developed machine learning model to extract those information from the signal and provide accurate prediction. They will be your third ear in solving problems. 
                 
                 </div>
 
@@ -461,7 +426,7 @@ class App extends React.Component {
               <div className="col-md-4 text-center">
                   <div className="profile">
                     <img src="img/user1.jpg" className="user" />
-                    <blockquote>I am shocked by the amazing techniques developed by Dr Aha</blockquote>
+                    <blockquote>I am very happy to recommend the amazing techniques developed by Dr Aha</blockquote>
 
                     <h3> Frank <span> CEO at Lagoon </span> </h3>           
 
