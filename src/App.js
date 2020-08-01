@@ -69,18 +69,21 @@ class App extends React.Component {
                     <h5> Life Long Learning </h5>
                   </div>
               </div>
+
               <div className="carousel-item">
                 <img src="img/banner2.jpg" className="d-block w-100" alt="..."/>
                   <div className="carousel-caption">              
-                    <h5> Smart Business Decision Making </h5>
+                    <h5> Extract knowledge from Data </h5>
                   </div>          
               </div>
+
               <div className="carousel-item">
                 <img src="img/banner3.jpg" className="d-block w-100" alt="..."/>
                   <div className="carousel-caption">              
-                    <h5> Extract knowledge and Benifit from Data </h5>
+                    <h5> Smarter Decision Making </h5>
                   </div>          
               </div>
+
             </div>
             <a className="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -111,23 +114,23 @@ class App extends React.Component {
                 <div className = "col-md-6 skills-bar">
                   <p> Data Science </p>
                   <div className="progress">
-                    <div className="progress-bar" style={{width: '80%'}}>80%</div>             
+                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
                   </div>
 
                   <p> Machine Learning </p>
                   <div className="progress">
-                    <div className="progress-bar" style={{width: '75%'}}>75%</div>             
+                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
                   </div>
 
 
-                  <p> Artifical Intelligence </p>
+                  <p> Business Intelligence </p>
                   <div className="progress">
-                    <div className="progress-bar" style={{width: '90%'}}>90%</div>             
+                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
                   </div>            
 
-                  <p> Project-based Learning </p>
+                  <p> Domain knowledge </p>
                   <div className="progress">
-                    <div className="progress-bar" style={{width: '80%'}}>80%</div>             
+                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
                   </div>  
 
               </div>
@@ -136,7 +139,7 @@ class App extends React.Component {
         </section>
 
 
-        <section id="services">
+        <section id="services" style={{backgroundImage: "url(img/services.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
           <div className="container">     
             <h1>Our Services</h1>
             <div className="row services">
@@ -144,8 +147,8 @@ class App extends React.Component {
                 <div className="icon">
                   <i className="fa fa-database"></i>            
                 </div>
-                <h3> Market Exploration </h3>
-                <p> We collect business data for our customers from various resources.  
+                <h3> Data Collection </h3>
+                <p> We collect high quality business data for our clients from various sources.  
                 </p>
 
               </div> 
@@ -156,7 +159,7 @@ class App extends React.Component {
                   <i className="fa fa-line-chart"></i>          
                 </div>
 
-                <h3> Customer Mining </h3>
+                <h3> Data Visualization </h3>
                 <p> We privide insightful business report using data visualization techniques.  
                 </p>
               </div> 
@@ -166,8 +169,8 @@ class App extends React.Component {
                   <i className="fa fa-cogs"></i>          
                 </div>
 
-                <h3> Product Upgrade </h3>
-                <p> We help training and deploying AI tools for solving your business problems.   
+                <h3> Machine Learning </h3>
+                <p> We help clients train and deploy AI tools for solving critical business problems.   
                 </p>
 
               </div> 
@@ -177,8 +180,8 @@ class App extends React.Component {
                   <i className="fa fa-graduation-cap"></i>      
                 </div>
 
-                <h3> Process Automation </h3>
-                <p> We provide customised courses of data science and AI training for your teams.  
+                <h3> Staff Training </h3>
+                <p> We provide customised courses of data science and AI training for your team.  
                 </p>
 
               </div> 
@@ -204,7 +207,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Weidong LIU</h2>
                     <h3>Data Scientist/Founder</h3>
-                    <p> Weidong is a AWS certified machine learning specialty.</p>
+                    <p> Weidong is a AWS certified machine learning specialty, and a full-stack machine learning APP developer.</p>
 
                 </div>
 
@@ -221,7 +224,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Weixing XU</h2>
                     <h3>Senior Data Scientist</h3>
-                    <p> Weixing is a experienced data scientist.</p>
+                    <p> Weixing is a senior data scientist. He has rich experience in handling big data and slove business problems</p>
 
                 </div>
 
@@ -237,7 +240,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Chuhan WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Chuhan is a experienced data scientist.</p>
+                    <p> Chuhan is a experienced data scientist. He is an expert in the application of computer vison in industrical process.</p>
 
                 </div>
 
@@ -253,7 +256,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Zhonghuai WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Zhonghuai is a experienced data scientist. </p>
+                    <p> Zhonghuai has rich expeirence in data processing and analysis. He is also an expert in numerical simulation </p>
 
                 </div>
 
@@ -270,7 +273,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Qi(Alen) WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Alen is an experienced Data Scientist.</p>
+                    <p> Alen is an experienced data scientist and mechanical engineer. He has both academic and industrial backgroud .</p>
 
                 </div>
 
@@ -286,7 +289,7 @@ class App extends React.Component {
                 </div>
                     <h2>Mr Haiyang ZHAO</h2>
                     <h3>Data Engineer/Software Engineer</h3>
-                    <p> Haiyang is an experienced data engineer and a PhD Candidate at UNSW.</p>
+                    <p> Haiyang is an experienced data engineer and software developer. He is also a PhD Candidate at UNSW.</p>
 
                 </div>
 
@@ -407,14 +410,14 @@ class App extends React.Component {
           </section>
 
 
-          <section id="testimonials">
+          <section id="testimonials" >
             <div className="container">
               <h1> Testimonials </h1>
               <p className="text-center"> Find more reviews on our YouTube channel. </p>
               <div className="row">
                 <div className="col-md-4 text-center">
                   <div className="profile">
-                    <img src="img/user1.jpg" className="user" />
+                    <img src="img/testimonial.jpg" className="user" />
                     <blockquote>Dr Aha provides excellent data collecting services for my business.</blockquote>
 
                     <h3> Nick Li <span> Director at Cubecorp </span> </h3>          
@@ -425,7 +428,7 @@ class App extends React.Component {
 
               <div className="col-md-4 text-center">
                   <div className="profile">
-                    <img src="img/user1.jpg" className="user" />
+                    <img src="img/testimonial.jpg" className="user" />
                     <blockquote>I am very happy to recommend the amazing techniques developed by Dr Aha</blockquote>
 
                     <h3> Frank <span> CEO at Lagoon </span> </h3>           
@@ -436,7 +439,7 @@ class App extends React.Component {
 
               <div className="col-md-4 text-center">
                   <div className="profile">
-                    <img src="img/user1.jpg" className="user" />
+                    <img src="img/testimonial.jpg" className="user" />
                     <blockquote>Dr Aha has the best data science and AI developing team.</blockquote>
 
                     <h3> Allen <span> Director at AWS </span> </h3>           
@@ -498,9 +501,12 @@ class App extends React.Component {
     </section>
 
 
-    <section id="footer">
+    <section id="footer" style={{backgroundImage: "url(img/footer.jpg)", backgroundSize: "cover"  }}>
       <div className="container text-center">
-        <p> In knowledge we believe</p>
+        <h6> The Tao produced One；One produced Two；Two produced Three；Three produced all things with big data. </h6>
+        <h6> We aims to extract the Tao from big data. </h6>
+        <p> </p>
+        <p> ©DR AHA DATA AND AI TECHNOLOGY PTY LTD, All Rights Reserved 2020 </p>      
         
       </div>
       
