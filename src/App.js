@@ -3,7 +3,9 @@ import AI_writer from './AI_Writer';
 import AI_Real from './AI_Real';
 import AI_eye from './AI_eye'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends React.Component {
   
@@ -31,22 +33,22 @@ class App extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="#">HOME</a>
+                  <Link className="nav-link" to="nav-bar" spy={true} smooth={true} offset={-70} duration={500} > HOME </Link>                       
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#about">ABOUT US</a>
+                  <Link className="nav-link" to="about" spy={true} smooth={true} offset={-70} duration={500} > ABOUT US </Link>                                                 
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#services">SERVICES</a>
+                  <Link className="nav-link" to="services" spy={true} smooth={true} offset={-70} duration={500} > SERVICES </Link>                               
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#team">OUR TEAM</a>
+                  <Link className="nav-link" to="team" spy={true} smooth={true} offset={-70} duration={500} > OUR TEAM </Link>                       
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#project">PROJECTS</a>
+                  <Link className="nav-link" to="project" spy={true} smooth={true} offset={-70} duration={500} > PROJECTS </Link>                  
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">CONTACT US</a>
+                  <Link className="nav-link" to="contact" spy={true} smooth={true} offset={-70} duration={500} > CONTACT US </Link>
                 </li>
               </ul>
             </div>
@@ -107,7 +109,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <button type="button" className = "btn btn-primary"> Read more >> </button>
+                <Link type="button" className = "btn btn-primary" style = {{color: "white"}} to="project" spy={true} smooth={true} offset={-70} duration={500}> More info>> </Link>
 
               </div>
 
@@ -301,12 +303,13 @@ class App extends React.Component {
           </section>
 
 
-          <section id="promo">
+          <section id="promo" style={{backgroundImage: "url(img/course.jpg)"}}>
 
             <div className="container">
 
-            <p> Get Free Data Science/Artificial Intelligence training classes</p>
-            <a href="#contact" className="btn btn-primary">Contact Us</a>
+            <p> Get Free Data Science/Artificial Intelligence Training.</p>
+
+            <Link type="button" className = "btn btn-primary" style = {{color: "white"}} to="contact" spy={true} smooth={true} offset={-70} duration={500}> Contact Us </Link>
 
             </div>
 
@@ -468,7 +471,7 @@ class App extends React.Component {
                       <input type="email" className="form-control" placeholder="Email Address" />
                     </div>
                     <div className="form-group">
-                      <textarea className="form-control" rows="3" placeholder="Your Message"></textarea> 
+                      <textarea className="form-control" rows="5" placeholder="Your Message"></textarea> 
                     </div>
 
                     <button type="submit" className="btn btn-primary">SEND MESSAGE</button>
@@ -484,7 +487,7 @@ class App extends React.Component {
                 
                   <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>drahaeducation@gmail.com </div>  
 
-                  <div className="follow"><label><b>Get Social:</b></label>
+                  <div className="follow" style = {{padding: "15px"}}><label><b>Get Social:</b></label>
                     <a href="#"><i className="fa fa-facebook"></i></a>
                     <a href="#"><i className="fa fa-youtube-play"></i></a>
                     <a href="#"><i className="fa fa-twitter"></i></a>
@@ -504,7 +507,7 @@ class App extends React.Component {
     <section id="footer" style={{backgroundImage: "url(img/footer.jpg)", backgroundSize: "cover"  }}>
       <div className="container text-center">
         <h6> The Tao produced One；One produced Two；Two produced Three；Three produced all things with big data. </h6>
-        <h6> We aims to extract the Tao from big data. </h6>
+        <h6> We help you extract the Tao from big data. </h6>
         <p> </p>
         <p> ©DR AHA DATA AND AI TECHNOLOGY PTY LTD, All Rights Reserved 2020 </p>      
         
