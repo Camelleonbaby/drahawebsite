@@ -398,7 +398,7 @@ class App extends React.Component {
 
               </div>
 
-                <div className = "col-md-6">
+                <div className = "col-md-6" >
                   <div className = "project-img"> 
                   <img src="img/AI-Ear.jpg" className="img-responsive" />  
                   </div>
