@@ -3,7 +3,7 @@ import AI_writer from './AI_Writer';
 import AI_Real from './AI_Real';
 import AI_eye from './AI_eye'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-// import { Link } from 'react-router-dom';
+import { Link as LinkPage} from 'react-router-dom' ;
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -328,7 +328,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <Link to= '/aireal'><button type="button" className = "btn btn-primary"> Try me </button></Link>
+                <LinkPage to= '/aireal'><button type="button" className = "btn btn-primary"> Try me </button></LinkPage>
 
               </div>
 
@@ -350,7 +350,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <Link to= '/aiwriter'><button type="button" className = "btn btn-primary">  Try me  </button></Link>
+                <LinkPage to= '/aiwriter'><button type="button" className = "btn btn-primary">  Try me  </button></LinkPage>
 
               </div>
 
@@ -372,7 +372,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <Link to= '/aieye'><button type="button" className = "btn btn-primary">  Try me  </button></Link>
+                <LinkPage to= '/aieye'><button type="button" className = "btn btn-primary">  Try me  </button></LinkPage>
 
               </div>
 
