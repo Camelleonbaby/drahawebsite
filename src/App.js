@@ -162,7 +162,7 @@ class App extends React.Component {
                 </div>
 
                 <h3> Data Visualization </h3>
-                <p> We privide insightful business report using data visualization techniques.  
+                <p> We provide insightful business report using data visualization techniques.  
                 </p>
               </div> 
 
@@ -242,7 +242,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Chuhan WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Chuhan is a experienced data scientist. He is an expert in the application of computer vison in industrical process.</p>
+                    <p> Chuhan is an experienced data scientist. He is an expert in the application of computer vison in industrical process.</p>
 
                 </div>
 
@@ -368,7 +368,7 @@ class App extends React.Component {
                 <div className = "col-md-6 project-showcase">
                 <h2> Third Eye </h2>
                 <div className = "project-content"> 
-                   Experienced structural engineers can identify risk via surface crack pattern. Medical specialty can recognise a particularly disease via a chest radiograph. We developed computer vision models with superior human performance in particular fields. They will be your third eye in solving problems.
+                   Experienced structural engineers can identify risk via surface crack pattern. Medical specialties can recognise a particularly disease via a chest radiograph. We are developing computer vision models with superior human performance in particular fields. They will be your third eye in solving problems.
                 
                 </div>
 
@@ -390,7 +390,7 @@ class App extends React.Component {
                 <div className = "col-md-6 project-showcase">
                 <h2> Third Ear </h2>
                 <div className = "project-content"> 
-                   Time-series signals, such as sound, ultrasonic, vibration, stock market price changes and other historic data,  contains rich useful information. We developed machine learning model to extract those information from the signal and provide accurate prediction. They will be your third ear in solving problems. 
+                   Time-series signals, such as sound, ultrasonic, vibration, stock market price changes and other historic data,  contain rich useful information. We are developing machine learning model to extract those information from the signal and provide accurate prediction. They will be your third ear in solving problems. 
                 
                 </div>
 
