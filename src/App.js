@@ -346,7 +346,7 @@ class App extends React.Component {
                 <div className = "col-md-6">
                 <h2> Smart Writer </h2>
                 <div className = "project-content"> 
-                We are facing writing tasks everyday. However, writing is not easy, even for a professional writer. A good writing plan consists of four steps: literature review, outline development, first draft and final polishing. On the basis of the most powerful NLP model, we developed a series of writing assistants to provide the best writing experience. 
+                We are facing writing tasks everyday. However, writing is not easy, even for a professional writer. A good writing plan consists of four steps: literature review, outline development, first draft and final polishing. On the basis of the most powerful NLP model, we are developing a series of writing assistants to provide the best writing experience. 
                 
                 </div>
 
