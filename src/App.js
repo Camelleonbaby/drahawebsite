@@ -226,7 +226,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Weixing XU</h2>
                     <h3>Senior Data Scientist</h3>
-                    <p> Weixing is a senior data scientist. He has rich experience in handling big data and slove business problems</p>
+                    <p> Weixing is a senior data scientist. He has rich experience in handling big data and slove business problems.</p>
 
                 </div>
 
@@ -258,7 +258,7 @@ class App extends React.Component {
                 </div>
                     <h2>Dr Zhonghuai WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Zhonghuai has rich expeirence in data processing and analysis. He is also an expert in numerical simulation </p>
+                    <p> Zhonghuai has rich expeirence in data processing and analysis. He is also an expert in numerical simulation. </p>
 
                 </div>
 
@@ -273,9 +273,9 @@ class App extends React.Component {
                   </ul>
 
                 </div>
-                    <h2>Dr Qi(Alen) WU</h2>
+                    <h2>Dr Qi WU</h2>
                     <h3>Data Scientist</h3>
-                    <p> Alen is an experienced data scientist and mechanical engineer. He has both academic and industrial backgroud .</p>
+                    <p> Qi is an experienced data scientist and mechanical engineer. He has both academic and industrial backgroud.</p>
 
                 </div>
 
@@ -485,7 +485,7 @@ class App extends React.Component {
 
                   <div className="follow"><b>Phone:</b><i className="fa fa-phone"></i> (+61) 0411 202 887 </div>            
                 
-                  <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>drahaeducation@gmail.com </div>  
+                  <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>drahadataai@gmail.com </div>  
 
                   <div className="follow" style = {{padding: "15px"}}><label><b>Get Social:</b></label>
                     <a href="#"><i className="fa fa-facebook"></i></a>
