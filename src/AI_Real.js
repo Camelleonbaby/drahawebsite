@@ -85,7 +85,7 @@ class AI_Real extends Component {
       House_No4_Longitude: 0, 
 
       House_No5_Latitude: 0,
-      House_No5_Longitude: 0,                          
+      House_No5_Longitude: 0,                         
 
 		}
 	};
@@ -148,7 +148,7 @@ class AI_Real extends Component {
 
     };                 
 
-    fetch('/House/ai_real_api', {
+    fetch('/input', {
       method:"POST",
       credentials: "include",
       body: JSON.stringify(entry),
@@ -159,24 +159,38 @@ class AI_Real extends Component {
 
       })
     })
-    .then(res => res.json()).then(data => {
+    .then(response => response.json()).then(data => {
+
 
       this.setState({
 
-      House_No1_Latitude: data.House_No1_Latitude,
-      House_No1_Longitude: data.House_No1_Longitude,
+        House_No1_Latitude: data.House_No1_Latitude,
+        House_No1_Longitude: data.House_No1_Longitude,
 
-      House_No2_Latitude: data.House_No2_Latitude,
-      House_No2_Longitude: data.House_No2_Longitude,
+        House_No2_Latitude: data.House_No2_Latitude,
+        House_No2_Longitude: data.House_No2_Longitude,
 
-      House_No3_Latitude: data.House_No3_Latitude,
-      House_No3_Longitude: data.House_No3_Longitude,
+        House_No3_Latitude: data.House_No3_Latitude,
+        House_No3_Longitude: data.House_No3_Longitude,
 
-      House_No4_Latitude: data.House_No4_Latitude,
-      House_No4_Longitude: data.House_No4_Longitude,
+        House_No4_Latitude: data.House_No4_Latitude,
+        House_No4_Longitude: data.House_No4_Longitude,
 
-      House_No5_Latitude: data.House_No5_Latitude,
-      House_No5_Longitude: data.House_No5_Longitude,            
+        House_No5_Latitude: data.House_No5_Latitude,
+        House_No5_Longitude: data.House_No5_Longitude,                
+
+
+//      House_No2_Latitude: data.House_No2_Latitude,
+//      House_No2_Longitude: data.House_No2_Longitude,
+
+//      House_No3_Latitude: data.House_No3_Latitude,
+//      House_No3_Longitude: data.House_No3_Longitude,
+
+//      House_No4_Latitude: data.House_No4_Latitude,
+//      House_No4_Longitude: data.House_No4_Longitude,
+
+//      House_No5_Latitude: data.House_No5_Latitude,
+//      House_No5_Longitude: data.House_No5_Longitude,            
 
       })
     });
@@ -433,7 +447,7 @@ class AI_Real extends Component {
 
             <div style={{padding: "10px"}}>
 
-              <h2 style={{ textAlign: "center", color: "blue"}}> Please find the recommended houses below: </h2>                          
+              <h2 style={{ textAlign: "center", color: "blue"}}> Please find the recommended houses below: </h2>                        
 
               <Map
                 style={{ height: "480px", width: "100%" }}
@@ -449,6 +463,7 @@ class AI_Real extends Component {
 
 
               </Map>
+
             </div>
 
 
