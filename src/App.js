@@ -7,6 +7,7 @@ import { Link as LinkPage} from 'react-router-dom' ;
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 class App extends React.Component {
   
   render (){
