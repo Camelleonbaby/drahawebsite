@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import { Map, Marker, CircleMarker, Popup, TileLayer }  from 'react-leaflet';
 import { Icon } from "leaflet";
 
+import Amplify, { API } from 'aws-amplify';
+
 
 class AI_Real extends Component {
 	constructor(props) {
@@ -148,17 +150,12 @@ class AI_Real extends Component {
 
     };                 
 
-    apiUrl = 'https://cghis7nlyb.execute-api.us-east-1.amazonaws.com/prod/input';
-    fetch('https://cghis7nlyb.execute-api.us-east-1.amazonaws.com/prod/input', {
-      method:"POST",
-      credentials: "include",
+
+    API.post('draha_real_api', '/input', {
+
       body: JSON.stringify(entry),
-      cache: "no-cache",
-      headers: new Headers({
 
-        "content-type":"application/json"
 
-      })
     })
     .then(response => response.json()).then(data => {
 

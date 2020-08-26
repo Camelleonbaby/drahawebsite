@@ -8,6 +8,25 @@ import { Link as LinkPage} from 'react-router-dom' ;
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
+
+import Amplify, { API } from 'aws-amplify';
+
+
+Amplify.configure({
+    // OPTIONAL - if your API requires authentication 
+
+    API: {
+        endpoints: [
+            {
+                name: "draha_real_api",
+                endpoint: "https://cghis7nlyb.execute-api.us-east-1.amazonaws.com/prod"
+            },
+
+        ]
+    }
+});
+
+
 class App extends React.Component {
   
   render (){
