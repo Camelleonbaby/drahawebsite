@@ -149,7 +149,7 @@ class AI_Real extends Component {
     };                 
 
     apiUrl = 'https://cghis7nlyb.execute-api.us-east-1.amazonaws.com/prod/input';
-    fetch(apiUrl, {
+    fetch('https://cghis7nlyb.execute-api.us-east-1.amazonaws.com/prod/input', {
       method:"POST",
       credentials: "include",
       body: JSON.stringify(entry),
