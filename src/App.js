@@ -140,6 +140,7 @@ class App extends React.Component {
         </section>
 
 
+
         <section id="services" style={{backgroundImage: "url(img/services.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
           <div className="container">     
             <h1>Our Services</h1>
