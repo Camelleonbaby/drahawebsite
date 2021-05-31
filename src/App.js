@@ -8,23 +8,17 @@ import { Link as LinkPage} from 'react-router-dom' ;
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
+import config from './aws-exports';
 
 import Amplify, { API } from 'aws-amplify';
+import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
+
+import {Auth} from 'aws-amplify';
 
 
-Amplify.configure({
-    // OPTIONAL - if your API requires authentication 
 
-    API: {
-        endpoints: [
-            {
-                name: "draha_real_api",
-                endpoint: "https://cghis7nlyb.execute-api.us-east-1.amazonaws.com/prod"
-            },
-
-        ]
-    }
-});
+Amplify.configure(config);
+Auth.configure(config);
 
 
 class App extends React.Component {
@@ -134,28 +128,13 @@ class App extends React.Component {
               </div>
 
                 <div className = "col-md-6 skills-bar">
-                  <p> Data Science </p>
-                  <div className="progress">
-                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
-                  </div>
 
-                  <p> Machine Learning </p>
-                  <div className="progress">
-                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
-                  </div>
-
-
-                  <p> Business Intelligence </p>
-                  <div className="progress">
-                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
-                  </div>            
-
-                  <p> Domain knowledge </p>
-                  <div className="progress">
-                    <div className="progress-bar" style={{width: '100%'}}>100%</div>             
-                  </div>  
+                 <img src="img/WordCloud.png" className="d-block w-100" style = {{paddingTop: "1em"}} alt="..." /> 
+ 
 
               </div>
+
+
             </div>
           </div>
         </section>
@@ -348,7 +327,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <LinkPage to= '/aireal'><button type="button" className = "btn btn-primary"> Try me </button></LinkPage>
+                <LinkPage to= '/aireal'><button type="button" className = "btn btn-primary"> MORE INFO </button></LinkPage>
 
               </div>
 
@@ -370,7 +349,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <LinkPage to= '/aiwriter'><button type="button" className = "btn btn-primary">  Try me  </button></LinkPage>
+                <LinkPage to= '/aiwriter'><button type="button" className = "btn btn-primary">  MORE INFO  </button></LinkPage>
 
               </div>
 
@@ -392,7 +371,7 @@ class App extends React.Component {
                 
                 </div>
 
-                <LinkPage to= '/aieye'><button type="button" className = "btn btn-primary">  Try me  </button></LinkPage>
+                <LinkPage to= '/aieye'><button type="button" className = "btn btn-primary">  MORE INFO  </button></LinkPage>
 
               </div>
 
@@ -505,7 +484,7 @@ class App extends React.Component {
 
                   <div className="follow"><b>Phone:</b><i className="fa fa-phone"></i> (+61) 0411 202 887 </div>            
                 
-                  <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>drahadataai@gmail.com </div>  
+                  <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>info@drahadataai.com </div>  
 
                   <div className="follow" style = {{padding: "15px"}}><label><b>Get Social:</b></label>
                     <a href="#"><i className="fa fa-facebook"></i></a>

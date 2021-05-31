@@ -7,6 +7,14 @@ import { Map, Marker, CircleMarker, Popup, TileLayer }  from 'react-leaflet';
 import { Icon } from "leaflet";
 
 import Amplify, { API } from 'aws-amplify';
+import config from './aws-exports';
+import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
+import {Auth} from 'aws-amplify';
+
+
+
+Amplify.configure(config);
+// Auth.configure(config);
 
 
 class AI_Real extends Component {
@@ -115,7 +123,97 @@ class AI_Real extends Component {
       
   }
 
-	handleSubmit = event => {
+
+
+  
+  handleSubmit_new = event => {
+
+    var entry = {
+      house1: this.state.house1, 
+      house1_option: this.state.house1_option,
+
+      house2: this.state.house2,       
+      house2_option: this.state.house2_option,
+
+      house3: this.state.house3, 
+      house3_option: this.state.house3_option,
+
+      house4: this.state.house4,       
+      house4_option: this.state.house4_option, 
+
+      house5: this.state.house5,       
+      house5_option: this.state.house5_option,
+
+      house6: this.state.house6, 
+      house6_option: this.state.house6_option,
+      
+      house7: this.state.house7,       
+      house7_option: this.state.house7_option,
+
+      house8: this.state.house8,       
+      house8_option: this.state.house8_option,
+
+      house9: this.state.house9, 
+      house9_option: this.state.house9_option,
+      
+      house10: this.state.house10,       
+      house10_option: this.state.house10_option,
+
+    };   
+
+    event.preventDefault();
+
+    API.post('draharealsmartAPI', '/Realsmart', {
+
+      body: JSON.stringify(entry),
+
+    }). then(response => {
+
+      console.log(response['ResponseFromRankJson']);
+
+
+      this.setState({
+
+
+        House_No1_Latitude: response['House_No1_Latitude'],
+        House_No1_Longitude: response['House_No1_Longitude'],
+
+        House_No2_Latitude: response['House_No2_Latitude'],
+        House_No2_Longitude: response['House_No2_Longitude'],
+
+        House_No3_Latitude: response['House_No3_Latitude'],
+        House_No3_Longitude: response['House_No3_Longitude'],
+
+        House_No4_Latitude: response['House_No4_Latitude'],
+        House_No4_Longitude: response['House_No4_Longitude'],
+
+        House_No5_Latitude: response['House_No5_Latitude'],
+        House_No5_Longitude: response['House_No5_Longitude'],                
+
+
+//      House_No2_Latitude: data.House_No2_Latitude,
+//      House_No2_Longitude: data.House_No2_Longitude,
+
+//      House_No3_Latitude: data.House_No3_Latitude,
+//      House_No3_Longitude: data.House_No3_Longitude,
+
+//      House_No4_Latitude: data.House_No4_Latitude,
+//      House_No4_Longitude: data.House_No4_Longitude,
+
+//      House_No5_Latitude: data.House_No5_Latitude,
+//      House_No5_Longitude: data.House_No5_Longitude,            
+
+      });
+
+
+    });
+
+
+  }
+
+
+
+  handleSubmit = event => {
 
     var entry = {
       house1: this.state.house1, 
@@ -151,12 +249,21 @@ class AI_Real extends Component {
     };                 
 
 
-    API.post('draha_real_api', '/input', {
 
+
+    fetch('/input', {
+      method:"POST",
+      credentials: "include",
       body: JSON.stringify(entry),
+      cache: "no-cache",
+      headers: new Headers({
 
+        "content-type":"application/json"
 
+      })
     })
+
+
     .then(response => response.json()).then(data => {
 
 
@@ -295,7 +402,7 @@ class AI_Real extends Component {
           <h1>  House Hunting </h1>
 
 
-          <form className="contact-form" onSubmit={this.handleSubmit}>
+          <form className="contact-form" onSubmit={this.handleSubmit_new}>
 
           <div className="row  project-showcase" style = {{padding: "10px"}}>
 
@@ -476,3 +583,5 @@ class AI_Real extends Component {
 }
 
 export default AI_Real;
+
+

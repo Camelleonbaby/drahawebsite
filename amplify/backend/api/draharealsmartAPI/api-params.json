@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/Realsmart",
+            "lambdaFunction": "draharealsmartLambda",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+
+            }
+        }
+    ],
+    "resourceName": "draharealsmartAPI",
+    "apiName": "draharealsmartAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "draharealsmartLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-draharealsmart-dev-102334-authRole",
+        "unAuthRoleName": "amplify-draharealsmart-dev-102334-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "draharealsmartLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
