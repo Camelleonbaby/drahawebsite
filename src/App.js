@@ -201,14 +201,14 @@ class App extends React.Component {
                   <div className="img-box">
                     <img src="img/weidong.jpg" className="img-responsive"/>
                   <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
+                    {/* <a href="#"><li><i className="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
+                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>    */}
                   </ul>
 
                 </div>
                     <h2>Dr Weidong LIU</h2>
-                    <h3>Data Scientist/Founder</h3>
+                    <h3>Founder</h3>
                     <p> Weidong is a AWS certified machine learning specialty, and a full-stack machine learning APP developer.</p>
 
                 </div>
@@ -216,32 +216,16 @@ class App extends React.Component {
 
                 <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
-                    <img src="img/weixing.jpg" className="img-responsive"/>
-                  <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
-                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
-                  </ul>
-
-                </div>
-                    <h2>Dr Weixing XU</h2>
-                    <h3>Senior Data Scientist</h3>
-                    <p> Weixing is a senior data scientist. He has rich experience in handling big data and slove business problems.</p>
-
-                </div>
-
-                <div className="col-md-4 profile-pic text-center">
-                  <div className="img-box">
                     <img src="img/chuhan.jpg" className="img-responsive" />
                   <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
+                    {/* <a href="#"><li><i className="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
+                    <a href="https://www.linkedin.com/in/weidong-liu-14169743/"><li><i className="fa fa-linkedin"></i></li></a>    */}
                   </ul>
 
                 </div>
                     <h2>Dr Chuhan WU</h2>
-                    <h3>Data Scientist</h3>
+                    <h3>Leading Data Scientist</h3>
                     <p> Chuhan is an experienced data scientist. He is an expert in the application of computer vison in industrical process.</p>
 
                 </div>
@@ -250,9 +234,9 @@ class App extends React.Component {
                   <div className="img-box">
                     <img src="img/zhonghuai.jpg" className="img-responsive" />
                   <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
+                    {/* <a href="#"><li><i className="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
+                    <a href="https://www.linkedin.com/in/chuhan-wu-807a86195/"><li><i className="fa fa-linkedin"></i></li></a>    */}
                   </ul>
 
                 </div>
@@ -267,9 +251,7 @@ class App extends React.Component {
                   <div className="img-box">
                     <img src="img/wuqi.jpg" className="img-responsive" />
                   <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
-                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
+   
                   </ul>
 
                 </div>
@@ -283,9 +265,7 @@ class App extends React.Component {
                   <div className="img-box">
                     <img src="img/haiyang.jpg" className="img-responsive" />
                   <ul>
-                    <a href="#"><li><i className="fa fa-facebook"></i></li></a>
-                    <a href="#"><li><i className="fa fa-twitter"></i></li></a>
-                    <a href="#"><li><i className="fa fa-linkedin"></i></li></a>   
+  
                   </ul>
 
                 </div>
@@ -295,6 +275,19 @@ class App extends React.Component {
 
                 </div>
 
+                <div className="col-md-4 profile-pic text-center">
+                  <div className="img-box">
+                    <img src="img/weixing.jpg" className="img-responsive"/>
+                  <ul>
+ 
+                  </ul>
+
+                </div>
+                    <h2>Dr Weixing XU</h2>
+                    <h3>Senior Data Scientist</h3>
+                    <p> Weixing is a senior data scientist. He has rich experience in handling big data and slove business problems.</p>
+
+                </div>
 
               </div>
 
@@ -319,30 +312,75 @@ class App extends React.Component {
           <section id="project">
 
             <div className="container">
-              <h1> Projects </h1>
+              <h1> Projects/Products </h1>
+
               <div className="row  project-showcase">
                 <div className = "col-md-6 project-showcase">
-                <h2> Smart Real </h2>
-                <div className = "project-content"> 
-                Buying and renting a house/apartment can be very time consuming and energy taking. Although there are several real estate website available, overloading information and data confused people and bring additional difficulties in decision making. Smart Real is a AI recommendation system helping people find the most suitable properties.
-                
-                </div>
-
-                <LinkPage to= '/aireal'><button type="button" className = "btn btn-primary"> MORE INFO </button></LinkPage>
-
-              </div>
-
-                <div className = "col-md-6">
-                  <div className = "project-img"> 
-                  <img src="img/real-estate.jpg" className="img-responsive" />  
+                  <h2 style = {{marginTop: "1em"}}> DataLife </h2>
+                  <div className = "project-content">                    
+                    DataLife is a WebAPP to support the career and skills development of Australian data professionals. Data is the new oil, but it cannot be used without the refinement of data professionals. There is a significant shortage of data professionals in Australia, and the workforce demand grows 10% annually in NSW ( ACS Australia's Digital Pulse 2021). On the other hand, Australia has many well-educated scientific and engineering talents who can become data professionals with appropriate skills upgrading and career support. DataLife aims to fill this gap by providing valuable information of high-demanding skills on the market and personalised career development advice.                  
                   </div>
 
+                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datalife.herokuapp.com/"> MORE INFO </a></button>
+
+              </div>
+
+              <div className = "col-md-6">
+                <div className = "project-img"> 
+                <img src="img/AI-DataLife.png" className="img-responsive" />  
+                </div>
+
               </div>
                 
 
+            </div>
+
+
+            <div className="row  project-showcase">
+                <div className = "col-md-6 project-showcase">
+                  <h2 style = {{marginTop: "1em"}}> SmartRolling </h2>
+                  <div className = "project-content">                    
+                     SmartRolling is a novel data-driven AI platform to regulate the smart strip rolling. With the aid of dynamic explicit FEA, we conducted numerical simulations for thousands of strip-rolling cases to cover the typical range of operating factors in the production. We established an open database to collect and store the massive data on the contact characteristics at the roll-strip interface. As such, we constructed an open AI platform to predict the rolling performance by using the collected big data and a machine learning model.
+                  </div>
+
+                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datadrivensmartrolling.herokuapp.com/"> MORE INFO </a></button>
+
               </div>
 
+              <div className = "col-md-6">
+                <div className = "project-img"> 
+                <img src="img/AI-SmartRolling.png" className="img-responsive" />  
+                </div>
+
+              </div>
+                
+
+            </div>
+
+
               <div className="row  project-showcase">
+                <div className = "col-md-6 project-showcase">
+                  <h2> Smart Real </h2>
+                  <div className = "project-content"> 
+                   Buying and renting a house/apartment can be very time consuming and energy taking. Although there are several real estate website available, overloading information and data confused people and bring additional difficulties in decision making. Smart Real is a data dashboard helping people find the most suitable properties.
+                  
+                  </div>
+
+                  <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://auapartment.herokuapp.com/"> MORE INFO </a></button>
+                
+              </div>
+
+              <div className = "col-md-6">
+                <div className = "project-img"> 
+                <img src="img/real-estate.jpg" className="img-responsive" />  
+                </div>
+
+              </div>
+                
+
+            </div>
+
+              {/* <div className="row  project-showcase">
                 <div className = "col-md-6">
                 <h2> Smart Writer </h2>
                 <div className = "project-content"> 
@@ -405,7 +443,7 @@ class App extends React.Component {
 
               </div>
                 
-              </div>
+              </div> */}
 
 
 
@@ -416,40 +454,42 @@ class App extends React.Component {
           <section id="testimonials" >
             <div className="container">
               <h1> Testimonials </h1>
-              <p className="text-center"> Find more reviews on our YouTube channel. </p>
+              {/* <p className="text-center"> Find more reviews on our YouTube channel. </p> */}
               <div className="row">
                 <div className="col-md-4 text-center">
                   <div className="profile">
                     <img src="img/testimonial.jpg" className="user" />
                     <blockquote>Dr Aha provides excellent data collecting services for my business.</blockquote>
 
-                    <h3> Nick Li <span> Director at Cubecorp </span> </h3>          
+                    <h3> Nick LI <span> Director at Cubecorp </span> </h3>          
 
                   </div>
                   
                 </div>
 
-              <div className="col-md-4 text-center">
+                <div className="col-md-4 text-center">
                   <div className="profile">
                     <img src="img/testimonial.jpg" className="user" />
-                    <blockquote>I am very happy to recommend the amazing techniques developed by Dr Aha</blockquote>
+                    <blockquote> Our company is committed to developing the best on-line training platform in Australia and Dr Aha's product is a very useful tool for our students </blockquote>
 
-                    <h3> Frank <span> CEO at Lagoon </span> </h3>           
+                    <h3> Jia HE <span> Founder of TheClassNow </span> </h3>           
 
                   </div>
                   
-                </div>
+              </div> 
 
               <div className="col-md-4 text-center">
                   <div className="profile">
                     <img src="img/testimonial.jpg" className="user" />
-                    <blockquote>Dr Aha has the best data science and AI developing team.</blockquote>
+                    <blockquote> We're definitely happy to try your product as we'll promote Weimob solutions </blockquote>
 
-                    <h3> Allen <span> Director at AWS </span> </h3>           
+                    <h3> Hang CHU <span> Founder of Cnosure </span> </h3>           
 
                   </div>
                   
-                </div>                  
+              </div>
+
+                 
               </div>
             </div>
           </section>
@@ -506,9 +546,7 @@ class App extends React.Component {
 
     <section id="footer" style={{backgroundImage: "url(img/footer.jpg)", backgroundSize: "cover"  }}>
       <div className="container text-center">
-        <h6> The Tao produced One；One produced Two；Two produced Three；Three produced all things with big data. </h6>
-        <h6> We help you extract the Tao from big data. </h6>
-        <p> </p>
+
         <p> ©DR AHA DATA AND AI TECHNOLOGY PTY LTD, All Rights Reserved 2020 </p>      
         
       </div>
