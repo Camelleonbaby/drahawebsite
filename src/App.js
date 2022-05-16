@@ -1,24 +1,24 @@
 import React from 'react';
-import AI_writer from './AI_Writer';
-import AI_Real from './AI_Real';
-import AI_eye from './AI_eye'
+// import AI_writer from './AI_Writer';
+// import AI_Real from './AI_Real';
+// import AI_eye from './AI_eye'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import { Link as LinkPage} from 'react-router-dom' ;
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
-import config from './aws-exports';
+// import config from './aws-exports';
 
-import Amplify, { API } from 'aws-amplify';
-import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
+// import Amplify, { API } from 'aws-amplify';
+// import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
 
-import {Auth} from 'aws-amplify';
+// import {Auth} from 'aws-amplify';
 
 
 
-Amplify.configure(config);
-Auth.configure(config);
+// Amplify.configure(config);
+// Auth.configure(config);
 
 
 class App extends React.Component {
@@ -28,9 +28,9 @@ class App extends React.Component {
     <Router>  
       <Switch>
 
-      <Route path="/aiwriter" component = {AI_writer} />
+      {/* <Route path="/aiwriter" component = {AI_writer} />
       <Route path="/aireal" component = {AI_Real} />
-//      <Route path="/aieye" component = {AI_eye} />      
+      <Route path="/aieye" component = {AI_eye} />       */}
 
       <div className="App">
 
