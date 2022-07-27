@@ -208,7 +208,7 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Weidong LIU</h2>
-                    <h3> Data Scientist/ML Engieeer </h3>
+                    <h3> Senior Data Scientist/ML Engieeer </h3>
                     <p> Weidong is a AWS certified machine learning specialty, and a full-stack machine learning APP developer.</p>
 
                 </div>
