@@ -195,7 +195,7 @@ class App extends React.Component {
           <section id="team">
 
             <div className="container">
-              <h1>Our Team</h1>
+              <h1>Our Technical Team</h1>
               <div className="row">
                 <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
@@ -208,7 +208,7 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Weidong LIU</h2>
-                    <h3>Founder</h3>
+                    <h3> Data Scientist/ML Engieeer </h3>
                     <p> Weidong is a AWS certified machine learning specialty, and a full-stack machine learning APP developer.</p>
 
                 </div>
@@ -225,7 +225,7 @@ class App extends React.Component {
 
                 </div>
                     <h2>Dr Chuhan WU</h2>
-                    <h3>Leading Data Scientist</h3>
+                    <h3> Data Scientist</h3>
                     <p> Chuhan is an experienced data scientist. He is an expert in the application of computer vison in industrical process.</p>
 
                 </div>
