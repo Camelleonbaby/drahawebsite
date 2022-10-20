@@ -321,7 +321,7 @@ class App extends React.Component {
                     DataLife is a WebAPP to support the career and skills development of Australian data professionals. Data is the new oil, but it cannot be used without the refinement of data professionals. There is a significant shortage of data professionals in Australia, and the workforce demand grows 10% annually in NSW ( ACS Australia's Digital Pulse 2021). On the other hand, Australia has many well-educated scientific and engineering talents who can become data professionals with appropriate skills upgrading and career support. DataLife aims to fill this gap by providing valuable information of high-demanding skills on the market and personalised career development advice.                  
                   </div>
 
-                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datalife.herokuapp.com/"> MORE INFO </a></button>
+                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datalife.drahadataai.com"> MORE INFO </a></button>
 
               </div>
 
@@ -343,7 +343,7 @@ class App extends React.Component {
                      SmartRolling is a novel data-driven AI platform to regulate the smart strip rolling. With the aid of dynamic explicit FEA, we conducted numerical simulations for thousands of strip-rolling cases to cover the typical range of operating factors in the production. We established an open database to collect and store the massive data on the contact characteristics at the roll-strip interface. As such, we constructed an open AI platform to predict the rolling performance by using the collected big data and a machine learning model.
                   </div>
 
-                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datadrivensmartrolling.herokuapp.com/"> MORE INFO </a></button>
+                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://52.65.239.209"> MORE INFO </a></button>
 
               </div>
 
