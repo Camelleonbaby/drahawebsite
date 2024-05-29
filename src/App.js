@@ -277,15 +277,15 @@ class App extends React.Component {
 
                 <div className="col-md-4 profile-pic text-center">
                   <div className="img-box">
-                    <img src="img/weixing.jpg" className="img-responsive"/>
+                    <img src="img/qingyu.jpg" className="img-responsive"/>
                   <ul>
  
                   </ul>
 
                 </div>
-                    <h2>Dr Weixing XU</h2>
-                    <h3>Senior Data Scientist</h3>
-                    <p> Weixing is a senior data scientist. He has rich experience in handling big data and slove business problems.</p>
+                    <h2>Dr Qingyu YAO</h2>
+                    <h3>Senior Research Scientist</h3>
+                    <p> Qingyu is a senior research scientist, experienced in machine learning and machine vision techniques in industrial applications, such as machinery performance optimization and non-destructive testing on subtle surfaces.</p>
 
                 </div>
 
