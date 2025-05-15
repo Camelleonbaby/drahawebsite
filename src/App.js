@@ -579,7 +579,7 @@ remedies, and offering actionable insights and recommendations for process impro
           </section> */}
 
 
-          <section id="contact" style={{ backgroundColor: "#f0f0f0" }}>
+          {/* <section id="contact" style={{ backgroundColor: "#f0f0f0" }}>
             <div className="container">
               <h1>Get In Touch</h1>
               <div className="row">
@@ -607,7 +607,7 @@ remedies, and offering actionable insights and recommendations for process impro
                 <div className="col-md-6 contact-info">
                   {/* <div className="follow"><b>Address:</b><i className="fa fa-map-marker"></i>116 Oakes Rd, Carlingford, NSW, Australia </div>           
 
-                  <div className="follow"><b>Phone:</b><i className="fa fa-phone"></i> (+61) 0411 202 887 </div>             */}
+                  <div className="follow"><b>Phone:</b><i className="fa fa-phone"></i> (+61) 0411 202 887 </div>            
                 
                   <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>info@drahadataai.com </div>  
 
@@ -625,12 +625,13 @@ remedies, and offering actionable insights and recommendations for process impro
         
       </div>
       
-    </section>
+    </section> */}
 
 
     <section id="footer" style={{backgroundImage: "url(img/footer.jpg)", backgroundSize: "cover"  }}>
       <div className="container text-center">
 
+        <p>Email: info@drahadataai.com </p>
         <p> ©DR AHA DATA AND AI TECHNOLOGY PTY LTD, All Rights Reserved 2025 </p>      
         
       </div>
