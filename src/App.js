@@ -82,7 +82,7 @@ class App extends React.Component {
               <div className="carousel-item active">
                 <img src="img/banner1.jpg" className="d-block w-100" alt="..."/>
                   <div className="carousel-caption">              
-                    <h5> Life Long Learning </h5>
+                    <h5> Revolutionizing Manufacturing with AI </h5>
                   </div>
               </div>
 
@@ -119,7 +119,7 @@ class App extends React.Component {
               <div className = "col-md-6">
                 <h2> About Us</h2>
                 <div className = "about-content"> 
-                    We’re a team of scientists, engineers, machine learning experts and more, working together to develop advanced data products and AI tools. We help our customers solve  the key business problems and make the right business decisions via high quality data collection, professional data visualisation, deep data mining and analysis, and customised data and AI tools/APPs. 
+                    We’re a team of scientists, engineers, and AI experts dedicated to revolutionizing advanced manufacturing with cutting-edge artificial intelligence. Our mission is to empower manufacturers with real-time defect detection, actionable insights, and intelligent automation, enabling smarter decision-making and optimized production processes. By reducing waste and improving efficiency, we help manufacturers lower costs and minimize carbon emissions, contributing to a more sustainable future. Beyond manufacturing, we are also exploring innovative AI solutions for natural hazard detection, aiming to enhance safety and resilience in the face of environmental challenges. 
                 
                 </div>
 
@@ -143,14 +143,14 @@ class App extends React.Component {
 
         <section id="services" style={{backgroundImage: "url(img/services.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
           <div className="container">     
-            <h1>Our Services</h1>
+            <h1>Key Features</h1>
             <div className="row services">
               <div className="col-md-3 text-center">
                 <div className="icon">
                   <i className="fa fa-database"></i>            
                 </div>
-                <h3> Data Collection </h3>
-                <p> We collect high quality business data for our clients from various sources.  
+                <h3> Real-Time Defect Detection </h3>
+                <p> Advanced AI algorithms identify defects as they occur during production. 
                 </p>
 
               </div> 
@@ -161,8 +161,8 @@ class App extends React.Component {
                   <i className="fa fa-line-chart"></i>          
                 </div>
 
-                <h3> Data Visualization </h3>
-                <p> We provide insightful business report using data visualization techniques.  
+                <h3> Industrial AI Agent </h3>
+                <p> Domain knowledge and AI expertise are combined to provide actionable insights.
                 </p>
               </div> 
 
@@ -171,8 +171,8 @@ class App extends React.Component {
                   <i className="fa fa-cogs"></i>          
                 </div>
 
-                <h3> Machine Learning </h3>
-                <p> We help clients train and deploy AI tools for solving critical business problems.   
+                <h3> Predictive Analytics </h3>
+                <p> Analyze data to predict potential defects before they occur.  
                 </p>
 
               </div> 
@@ -182,8 +182,57 @@ class App extends React.Component {
                   <i className="fa fa-graduation-cap"></i>      
                 </div>
 
-                <h3> Staff Training </h3>
-                <p> We provide customised courses of data science and AI training for your team.  
+                <h3> User-Friendly Interface </h3>
+                <p> Intuitive dashboards and visualizations for easy monitoring and decision-making.  
+                </p>
+
+              </div> 
+            </div>
+          </div>
+
+          <div style={{ height: "100px" }}></div>
+          <div className="container">     
+            <h1>Benefits for Advanced Manufacturing</h1>
+            <div className="row services">
+              <div className="col-md-3 text-center">
+                <div className="icon">
+                  <i className="fa fa-check-square-o"></i>            
+                </div>
+                <h3> Improved Product Quality </h3>
+                <p> Enhance your output quality with real-time defect detection and prevention.
+                </p>
+
+              </div> 
+
+
+              <div className="col-md-3 text-center">
+                <div className="icon">
+                  <i className="fa fa-check-square-o"></i>          
+                </div>
+
+                <h3> Significant Cost Reduction </h3>
+                <p> Minimize waste and optimize resource allocation for substantial savings.
+                </p>
+              </div> 
+
+              <div className="col-md-3 text-center">
+                <div className="icon">
+                  <i className="fa fa-check-square-o"></i>          
+                </div>
+
+                <h3> Enhanced Production Efficiency </h3>
+                <p> Streamline operations and boost productivity across your production lines.  
+                </p>
+
+              </div> 
+
+              <div className="col-md-3 text-center">
+                <div className="icon">
+                  <i className="fa fa-check-square-o"></i>      
+                </div>
+
+                <h3> Data-Driven Decision Making </h3>
+                <p> Leverage AI-driven insights to make informed strategic decisions.  
                 </p>
 
               </div> 
@@ -300,7 +349,7 @@ class App extends React.Component {
 
             <div className="container">
 
-            <p> Get Free Data Science/Artificial Intelligence Training.</p>
+            <p> Learn more about our products and how they can benefit your business.</p>
 
             <Link type="button" className = "btn btn-primary" style = {{color: "white"}} to="contact" spy={true} smooth={true} offset={-70} duration={500}> Contact Us </Link>
 
@@ -311,30 +360,43 @@ class App extends React.Component {
 
           <section id="project">
 
+
+
+
+
+
+
+
             <div className="container">
               <h1> Projects/Products </h1>
 
+
               <div className="row  project-showcase">
                 <div className = "col-md-6 project-showcase">
-                  <h2 style = {{marginTop: "1em"}}> DataLife </h2>
-                  <div className = "project-content">                    
-                    DataLife is a WebAPP to support the career and skills development of Australian data professionals. Data is the new oil, but it cannot be used without the refinement of data professionals. There is a significant shortage of data professionals in Australia, and the workforce demand grows 10% annually in NSW ( ACS Australia's Digital Pulse 2021). On the other hand, Australia has many well-educated scientific and engineering talents who can become data professionals with appropriate skills upgrading and career support. DataLife aims to fill this gap by providing valuable information of high-demanding skills on the market and personalised career development advice.                  
+                  <h2> AI System for Glass Product Defect Mangement  </h2>
+                  <div className = "project-content"> 
+                   With the support of the BRII group, we are developing an AI system to detect and manage the defects of glass products. This system comprises two main components: (1) a robust,
+real-time AI-powered defect detection solution specifically designed for wine glass bottles, which
+was successfully developed and pilot-tested; and (2) an advanced AI agent capable of analyzing
+defect data from the production line, diagnosing underlying causes, identifying potential
+remedies, and offering actionable insights and recommendations for process improvement.
+                   The system will be used in the glass manufacturing industry. The system will be able to detect the defects in real time and provide the best solution for reducing the defects. 
+                  
                   </div>
 
-                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datalife.drahadataai.com"> MORE INFO </a></button>
-
+                  <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://auapartment.herokuapp.com/"> MORE INFO </a></button>
+                
               </div>
 
               <div className = "col-md-6">
                 <div className = "project-img"> 
-                <img src="img/AI-DataLife.png" className="img-responsive" />  
+                <img src="img/glass_defect.jpg" className="img-responsive" />  
                 </div>
 
               </div>
                 
 
             </div>
-
 
             <div className="row  project-showcase">
                 <div className = "col-md-6 project-showcase">
@@ -358,27 +420,49 @@ class App extends React.Component {
             </div>
 
 
-              <div className="row  project-showcase">
+            <div className="row  project-showcase">
                 <div className = "col-md-6 project-showcase">
-                  <h2> Smart Real </h2>
-                  <div className = "project-content"> 
-                   Buying and renting a house/apartment can be very time consuming and energy taking. Although there are several real estate website available, overloading information and data confused people and bring additional difficulties in decision making. Smart Real is a data dashboard helping people find the most suitable properties.
-                  
+                  <h2 style = {{marginTop: "1em"}}> Natual Hazard Detection System </h2>
+                  <div className = "project-content">                    
+                      We are designing an advanced system to detect natural hazards, such as bushfires and floods, in real time and provide optimal solutions to minimize damage. With end-to-end capabilities, our system covers the entire technological pipeline, from data acquisition and preprocessing to intelligent feature extraction and real-time hazard detection, ensuring large-scale, high-impact deployments. As leaders in technology, we continuously innovate AI solutions tailored for environmental applications, positioning ourselves at the forefront of next-generation natural hazard detection systems.
                   </div>
 
-                  <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://auapartment.herokuapp.com/"> MORE INFO </a></button>
-                
+                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://52.65.239.209"> MORE INFO </a></button>
+
               </div>
 
               <div className = "col-md-6">
                 <div className = "project-img"> 
-                <img src="img/real-estate.jpg" className="img-responsive" />  
+                <img src="img/bushfire.jpg" className="img-responsive" />  
                 </div>
 
               </div>
                 
 
             </div>
+
+              {/* <div className="row  project-showcase">
+                <div className = "col-md-6 project-showcase">
+                  <h2 style = {{marginTop: "1em"}}> DataLife </h2>
+                  <div className = "project-content">                    
+                    DataLife is a WebAPP to support the career and skills development of Australian data professionals. Data is the new oil, but it cannot be used without the refinement of data professionals. There is a significant shortage of data professionals in Australia, and the workforce demand grows 10% annually in NSW ( ACS Australia's Digital Pulse 2021). On the other hand, Australia has many well-educated scientific and engineering talents who can become data professionals with appropriate skills upgrading and career support. DataLife aims to fill this gap by providing valuable information of high-demanding skills on the market and personalised career development advice.                  
+                  </div>
+
+                <button type="button" className = "btn btn-primary"><a style= {{"textDecoration": "none", "color":"white"}} href="http://datalife.drahadataai.com"> MORE INFO </a></button>
+
+              </div>
+
+              <div className = "col-md-6">
+                <div className = "project-img"> 
+                <img src="img/AI-DataLife.png" className="img-responsive" />  
+                </div>
+
+              </div>
+                
+
+            </div> */}
+
+
 
               {/* <div className="row  project-showcase">
                 <div className = "col-md-6">
@@ -451,10 +535,10 @@ class App extends React.Component {
           </section>
 
 
-          <section id="testimonials" >
+          {/* <section id="testimonials" style={{ backgroundColor: "#f0f0f0" }}>   
             <div className="container">
               <h1> Testimonials </h1>
-              {/* <p className="text-center"> Find more reviews on our YouTube channel. </p> */}
+
               <div className="row">
                 <div className="col-md-4 text-center">
                   <div className="profile">
@@ -492,10 +576,10 @@ class App extends React.Component {
                  
               </div>
             </div>
-          </section>
+          </section> */}
 
 
-          <section id="contact">
+          <section id="contact" style={{ backgroundColor: "#f0f0f0" }}>
             <div className="container">
               <h1>Get In Touch</h1>
               <div className="row">
@@ -521,9 +605,9 @@ class App extends React.Component {
                 </div>
                 
                 <div className="col-md-6 contact-info">
-                  <div className="follow"><b>Address:</b><i className="fa fa-map-marker"></i>116 Oakes Rd, Carlingford, NSW, Australia </div>           
+                  {/* <div className="follow"><b>Address:</b><i className="fa fa-map-marker"></i>116 Oakes Rd, Carlingford, NSW, Australia </div>           
 
-                  <div className="follow"><b>Phone:</b><i className="fa fa-phone"></i> (+61) 0411 202 887 </div>            
+                  <div className="follow"><b>Phone:</b><i className="fa fa-phone"></i> (+61) 0411 202 887 </div>             */}
                 
                   <div className="follow"><b>Email:</b><i className="fa fa-envelope-o"></i>info@drahadataai.com </div>  
 
@@ -547,7 +631,7 @@ class App extends React.Component {
     <section id="footer" style={{backgroundImage: "url(img/footer.jpg)", backgroundSize: "cover"  }}>
       <div className="container text-center">
 
-        <p> ©DR AHA DATA AND AI TECHNOLOGY PTY LTD, All Rights Reserved 2020 </p>      
+        <p> ©DR AHA DATA AND AI TECHNOLOGY PTY LTD, All Rights Reserved 2025 </p>      
         
       </div>
       
